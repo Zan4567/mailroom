@@ -11,8 +11,8 @@ setup (
   extras_require={
     'test': ['pytest', 'pytest-watch', 'pytest-cov', 'tox'],
     'development': ['ipython']
-  },
-  entry_points={
-    "exec_name = module_path:fn_name"
   }
+  # entry_points={
+  #   "exec_name = module_path:fn_name"
+  # }
 )
